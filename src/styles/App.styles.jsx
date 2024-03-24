@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   li {
-    list-style: none;    
+    list-style: none;
   }
 `;
 
