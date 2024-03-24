@@ -1,6 +1,6 @@
-import Header from './componentes/Header';
-import Search from './componentes/Search';
-import LastReleases from './componentes/LastReleases';
+import Header from './components/Header';
+import Search from './components/Search';
+import LastReleases from './components/LastReleases';
 import { AppContainer } from './styles/App.styles';
 
 function App() {
