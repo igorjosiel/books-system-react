@@ -5,7 +5,6 @@ const SearchContainer = styled.section`
     color: #FFF;
     text-align: center;
     padding: 85px 0;
-    height: 470px;
     width: 100%;
 `;
 
@@ -28,6 +27,7 @@ const Result = styled.div`
     align-items: center;
     margin-bottom: 20px;
     cursor: pointer;
+    transition: all ease 2s;
 
     p {
         width: 200px;
@@ -38,7 +38,7 @@ const Result = styled.div`
     }
 
     &:hover {
-        border: 1px solid white;
+        transform: scale(0.9);
     }
 `;
 
